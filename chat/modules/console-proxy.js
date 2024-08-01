@@ -128,5 +128,4 @@ const proxyConsole = () => {
         window.webkit.messageHandlers.consoleMessage.postMessage({ method: 'error', args: consoleArgs([error.message]) });
     });
 };
-
 export { proxyConsole };
